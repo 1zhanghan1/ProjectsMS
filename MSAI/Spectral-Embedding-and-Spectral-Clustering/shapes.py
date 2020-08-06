@@ -11,7 +11,7 @@ markers = ['>','+','^','<']
 n_r = range(4)
 times=[]
 
-if __name__ ==  '__main__'
+if __name__ ==  '__main__':
     data = pd.read_csv('C:/Users/User/Desktop/tefas/shapes/shapes.csv').values
     labels = pd.read_csv('C:/Users/User/Desktop/tefas/shapes/labels.csv')
 
