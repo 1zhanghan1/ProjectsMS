@@ -140,7 +140,7 @@ def prec_rec_curve(prec, rec, avg_prec):
     plt.title('2-class Precision-Recall curve: AP={0:0.2f}'.format(avg_prec))
 
 
-class VotingClassifier(object):
+class VotingClassifier:
 
     def __init__(self, clfs, weights=None):
         self.clfs = clfs
