@@ -1,1 +1,2 @@
-Implementation of SVM project for the statistical learning course
+# SVM implementation and classification
+This project was an assignment for the postgraduate course "Statistical Learning"
